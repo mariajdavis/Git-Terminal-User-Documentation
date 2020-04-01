@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration
+title: Create a Repository
 nav_order: 2
 ---
 
