@@ -95,5 +95,3 @@ git config --global -e
 ## Conclusion
 
 You will know if you have entered an incorrect command or not achieved the goals of this instruction set if you see any Terminal error messages. If so, please try the steps again or visit our ‘Troubleshooting’ page.
-
----
