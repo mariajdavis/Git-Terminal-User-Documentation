@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Repository Management
+title: Repositories
 nav_order: 3
 has_children: true
 permalink: /docs/ui-components
 ---
 
-# Repository Management
+# Repositories
 {: .no_toc }
 
 
