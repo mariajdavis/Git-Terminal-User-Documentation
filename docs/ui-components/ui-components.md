@@ -31,27 +31,26 @@ To create a repository for an existing project:
 ```bash
 ls
 ```
-2.  Enter the folder you want to access:
+2.  Enter the directory containing the project:
 ```bash
 cd <folderName>
 ```
-3.  Find the directory containing the project
-4.  Initialize the new repository: 
+3.  Initialize the new repository: 
 ```bash
 git init
  ```
-5.  Add any new files in the directory: 
+4.  Add any new files in the directory: 
 ```bash
 git add
 ```
-6.  Commit new files: 
+5.  Commit new files: 
 ```bash
 git commit -m “commit message goes here”
 ```
 
 **Note: It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit.**
 
-## Create a Repository for a New Project:
+## Create a Repository for a New Project
 
 To create a repository for a new project that has not yet been started:
 
