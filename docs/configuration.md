@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Create a Repository
+title: Getting Started
 nav_order: 2
 ---
 
-# Configuration
+# Getting Started
 {: .no_toc }
 
 
