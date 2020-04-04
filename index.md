@@ -2,19 +2,15 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Introduction to Git on Terminal"
+description: "How to Use Git on Terminal"
 permalink: /
 ---
 
-# Git on Terminal
+# How to Use Git on Terminal
 {: .fs-9 }
 
 User documentation for Git on Mac's Terminal
 {: .fs-6 .fw-300 }
-
-[Introduction to Git](#introduction-to-git){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Introduction to Terminal](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-
----
 
 ## Purpose
 
