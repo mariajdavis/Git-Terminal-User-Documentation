@@ -1,12 +1,103 @@
 ---
 layout: default
-title: Clone a Repository
+title: Repository Management
 nav_order: 3
 has_children: true
 permalink: /docs/ui-components
 ---
 
-# UI Components
+# Repository Management
+{: .no_toc }
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+
+A Git repository is a folder that virtually stores a project. It is the . git/ folder inside a project folder on your computer. This repository tracks all changes made to files in the project, allowing developers to view project history. 
 {: .fs-6 .fw-300 }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+## Create a Repository for an Existing Project
+
+To create a repository, you will first need to navigate to the correct location in your working directory via Terminal. 
+
+To create a repository for an existing project:
+
+1.  From your computer’s root directory, view: 
+```bash
+ls
+```
+2.  Enter the folder you want to access:
+```bash
+cd <folderName>
+```
+3.  Find the directory containing the project
+4.  Initialize the new repository: 
+```bash
+git init
+ ```
+5.  Add any new files in the directory: 
+```bash
+git add
+```
+6.  Commit new files: 
+```bash
+git commit -m “commit message goes here”
+```
+
+**Note: It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit.**
+
+## Create a Repository for a New Project:
+
+To create a repository for a new project that has not yet been started:
+
+1.  In the directory location of your choice, enter: 
+```bash
+mkdir <new-directory-name>
+```
+2.  Go into the new directory: 
+```bash
+  cd <new-directory-name>
+```
+3.  Enter: 
+```bash
+  git init
+```
+
+## Update a Repository
+
+To update a local repository, users are required to add and commit files:
+
+1.  Make sure you are in the correct directory: 
+```bash
+cd <path/to/project>
+```
+2.  Create a new file with some contents (“testing commit function”) and label it testCommit.txt : 
+```bash
+echo “testing commit function” >> testCommit.txt
+```
+3.  Add new file to the repository staging area:
+```bash
+git add testCommit.txt
+```
+4. Commit new files: 
+```bash
+git commit -m “write a professional commit message”
+```
+
+**Note: To push your work to (share it with) a remote repository, you will need to use a Git host service to store your repository. The service will provide you with a URL that you can use to push your code. GitHub is our preferred Git host service: https://github.com/**
+
+5.  Add a remote repository to your local git configuration using: 
+```bash
+git remote add <remote_name> <remote_repo_url>
+```
+
+## Conclusion
+
+You will know if you have entered an incorrect command or not achieved the goals of this instruction set if you see any Terminal error messages. If so, please try the steps again or visit our ‘Troubleshooting’ page.
+
+---
