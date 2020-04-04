@@ -23,9 +23,7 @@ To get started using Git on Terminal, you will want to familiarize yourself with
 
 The following basic Terminal commands will allow you to navigate your computer’s working directory. Some of them will be used in this user documentation:
 
-```yaml
 Note: Whenever the <> symbols appear in a command, it is meant to be replaced with your own input.
-```
 
 Change directory:
 ```bash
@@ -54,15 +52,17 @@ mkdir <new-directory-name>
 
 ## Git Installation
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
+To install Git:
 
-# Enable support for hyphenated search words:
-search_tokenizer_separator: /[\s/]+/
-
+1.  Open the Terminal application
+2.  Check to see if git is already installed: 
+```bash
+git --version
 ```
+3.  If it is not yet installed, you will be prompted to go ahead and install it
+
+
+Note: You will know when Git has been successfully installed when the ```bashgit --version```	command the following result appears in Terminal: ```bashgit version <latest-version-number> (Apple Git-<version-number>)```
 
 ## Initialize Account
 
