@@ -8,7 +8,6 @@ permalink: /
 
 # How to Use Git on Terminal
 {: .fs-9 }
-
 User documentation for Git on Mac's Terminal
 {: .fs-6 .fw-300 }
 
@@ -30,4 +29,4 @@ These instructions assume that users are already familiar with their Mac operati
 
 ## About the project
 
-How to Use Git on Terminal is &copy; 2020 by Diyar Ravandi & Maria Davis(http://patrickmarsceill.com).
+&copy; 2020 by Diyar Ravandi & Maria Davis
