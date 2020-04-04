@@ -19,12 +19,13 @@ To get started using Git on Terminal, you will want to familiarize yourself with
 
 ---
 
-
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
-
 ## Basic Terminal Commands
 
 The following basic Terminal commands will allow you to navigate your computer’s working directory. Some of them will be used in this user documentation:
+
+```yaml
+Note: Whenever the <> symbols appear in a command, it is meant to be replaced with your own input.
+```
 
 Change directory:
 ```bash
