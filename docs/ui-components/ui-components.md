@@ -27,7 +27,7 @@ To create a repository, you will first need to navigate to the correct location 
 
 To create a repository for an existing project:
 
-1.  From your computer’s root directory, view: 
+1. View contents of your computer’s root directory in Terminal: 
 ```bash
 ls
 ```
