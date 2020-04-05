@@ -4,224 +4,59 @@ title: Glossary
 nav_order: 5
 ---
 
-# Navigation Structure
+# Glossary
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ---
 
-## Main navigation
+**Add command**
 
-The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren).
+Informs Git that you want to include updates to a particular file in the next commit. Adds a change in the working directory to the staging area. 
 
-By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see [Pages with Children](#pages-with-children)).
+**Branch**
 
----
+A lightweight, movable pointer to a particular development stage.
 
-## Ordering pages
+**Branching** 
 
-To specify a page order, use the `nav_order` parameter in your pages' YAML front matter.
+Creates copies of code in development to work in parallel versions, retaining the original and working on the branch or making different changes to each.
 
-#### Example
-{: .no_toc }
+**Commit command**
 
-```yaml
----
-layout: default
-title: Customization
-nav_order: 4
----
-```
+Saves your changes to the local repository but does not automatically transfer changes to the remote server. Git commit only saves a new commit object in the local Git repository.
 
----
+**Directory**
 
-## Excluding pages
+A location for storing files on your computer (a folder).
 
-For specific pages that you do not wish to include in the main navigation, e.g. a 404 page or a landing page, use the `nav_exclude: true` parameter in the YAML front matter for that page.
+**Git** 
 
-#### Example
-{: .no_toc }
+Version-control system for tracking changes in source code during software development, enabled remote collaboration.
 
-```yaml
----
-layout: default
-title: 404
-nav_exclude: true
----
-```
+**Master branch**
 
----
+Default/main development branch.
 
-## Pages with children
+**Merge command**
 
-Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together... For example, in these docs, we keep all of the written documentation in the `./docs` directory and each of the sections in subdirectories like `./docs/ui-components` and `./docs/utilities`. This gives us an organization like:
+Integrates different lines of development into a single branch.
 
-```
-+-- ..
-|-- (Jekyll files)
-|
-|-- docs
-|   |-- ui-components
-|   |   |-- index.md  (parent page)
-|   |   |-- buttons.md
-|   |   |-- code.md
-|   |   |-- labels.md
-|   |   |-- tables.md
-|   |   +-- typography.md
-|   |
-|   |-- utilities
-|   |   |-- index.md      (parent page)
-|   |   |-- color.md
-|   |   |-- layout.md
-|   |   |-- responsive-modifiers.md
-|   |   +-- typography.md
-|   |
-|   |-- (other md files, pages with no children)
-|   +-- ..
-|
-|-- (Jekyll files)
-+-- ..
-```
+**Push command**
 
-On the parent pages, add this YAML front matter parameter:
--  `has_children: true` (tells us that this is a parent page)
+Uploads local repository content to a remote repository.
 
-#### Example
-{: .no_toc }
+**Repository**
 
-```yaml
----
-layout: default
-title: UI Components
-nav_order: 2
-has_children: true
----
-```
+A file location where you are storing all the files related to your project. A local repository is usually present on a user’s computer, a remote repository is usually hosted on a server, and can be shared by multiple users.
 
-Here we're setting up the UI Components landing page that is available at `/docs/ui-components`, which has children and is ordered second in the main nav.
+**Repository hosting service**
 
-### Child pages
-{: .text-gamma }
+Third-party web applications that wrap and enhance a version control system.
 
-On child pages, simply set the `parent:` YAML front matter to whatever the parent's page title is and set a nav order (this number is now scoped within the section).
+**Terminal**
 
-#### Example
-{: .no_toc }
+A command line system allowing users to control their operating system using only the keyboard.
 
-```yaml
----
-layout: default
-title: Buttons
-parent: UI Components
-nav_order: 2
----
-```
+**Version-control**
 
-The Buttons page appears as a child of UI Components and appears second in the UI Components section.
-
-### Auto-generating Table of Contents
-
-By default, all pages with children will automatically append a Table of Contents which lists the child pages after the parent page's content. To disable this auto Table of Contents, set `has_toc: false` in the parent page's YAML front matter.
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: UI Components
-nav_order: 2
-has_children: true
-has_toc: false
----
-```
-
-### Children with children
-{: .text-gamma }
-
-Child pages can also have children (grandchildren). This is achieved by using a similar pattern on the child and grandchild pages.
-
-1. Add the `has_children` attribute to the child
-1. Add the `parent` and `grand_parent` attribute to the grandchild
-
-#### Example
-{: .no_toc }
-
-```yaml
----
-layout: default
-title: Buttons
-parent: UI Components
-nav_order: 2
-has_children: true
----
-```
-
-```yaml
----
-layout: default
-title: Buttons Child Page
-parent: Buttons
-grand_parent: UI Components
-nav_order: 1
----
-```
-
-This would create the following navigation structure:
-
-```
-+-- ..
-|
-|-- UI Components
-|   |-- ..
-|   |
-|   |-- Buttons
-|   |   |-- Button Child Page
-|   |
-|   |-- ..
-|
-+-- ..
-```
-
----
-
-## Auxiliary Navigation
-
-To add a auxiliary navigation item to your site (in the upper right on all pages), add it to the `aux_nav` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-nav) in your site's `_config.yml` file.
-
-#### Example
-{: .no_toc }
-
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
-```
-
----
-
-## In-page navigation with Table of Contents
-
-To generate a Table of Contents on your docs pages, you can use the `{:toc}` method from Kramdown, immediately after an `<ol>` in Markdown. This will automatically generate an ordered list of anchor links to various sections of the page based on headings and heading levels. There may be occasions where you're using a heading and you don't want it to show up in the TOC, so to skip a particular heading use the `{: .no_toc }` CSS class.
-
-#### Example
-{: .no_toc }
-
-```markdown
-# Navigation Structure
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-```
-
-This example skips the page name heading (`#`) from the TOC, as well as the heading for the Table of Contents itself (`##`) because it is redundant, followed by the table of contents itself.
+A system that records changes to a file or project over time so that you can recall specific versions later.
