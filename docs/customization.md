@@ -4,7 +4,7 @@ title: Troubleshooting
 nav_order: 6
 ---
 
-# Customization
+# Troubleshooting
 {: .no_toc }
 
 ## Table of contents
@@ -15,61 +15,88 @@ nav_order: 6
 
 ---
 
-## Color schemes
-{: .d-inline-block }
+## Committed to Wrong Branch
 
-New
-{: .label .label-green }
+If you commit an update to the wrong branch:
 
-Just the Docs supports two color schemes: light (default), and dark.
-
-To enable a color scheme, set the `color_scheme` parameter in your site's `_config.yml` file:
-
-#### Example
-{: .no_toc }
-
-```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
-
-## Specific visual customization
-
-To customize your site’s aesthetic, open `_sass/custom/custom.scss` in your editor to see if there is a variable that you can override. Most styles like fonts, colors, spacing, etc. are derived from these variables. To override a specific variable, uncomment its line and change its value.
-
-For example, to change the link color from the purple default to blue, open `_sass/custom/custom.css` and find the `$link-color` variable on line `50`. Uncomment it, and change its value to our `$blue-000` variable, or another shade of your choosing.
-
-#### Example
-{: .no_toc }
-
-```scss
-// ...
-//
-// $body-text-color: $grey-dk-100;
-// $body-heading-color: $grey-dk-300;
-$link-color: $blue-000;
-//
-// ...
+```bash
+git reset HEAD~ --soft
+git stash
+git checkout correctBranchName
+git stash pop
+git add . # or add individual files
+git commit -m "message here"
 ```
 
-_Note:_ Editing the variables directly in `_sass/support/variables.scss` is not recommended and can cause other dependencies to fail.
+## Wrong Commit Message
 
-## Override styles
+If you need to change the message on your last commit:
 
-For styles that aren't defined as a variables, you may want to modify specific CSS classes. To add your own CSS overrides at the end of the cascade, edit `_sass/overrides.scss`. This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied.
-
-For example, if you'd like to add your own styles for printing a page, you could add the following styles.
-
-#### Example
-{: .no_toc }
-
-```scss
-// Print-only styles.
-@media print {
-  .side-bar, .page-header { display: none; }
-  .main-content { max-width: auto; margin: 1em;}
-}
+```bash
+git commit --amend -m "new commit message"
 ```
+
+
+## Wrong File Added
+
+If you need to remove a file from Git without removing it from your file system:
+
+1.  Enter:
+```bash
+git reset fileName
+```
+2.  Enter:
+```bash
+echo file >> .gitignore
+```
+
+
+## Mistake Realized After Committing
+
+If you need to make a change right after you make a commit:
+
+1.  Make that change. 
+2.  Enter: 
+```bash
+git add <file-name>
+```
+3.  Enter:
+```bash
+git commit --amend --no-edit
+```
+
+## Merge Conflict
+
+Merge conflicts occur when Git is unable to resolve differences in code between two commits from two different users. 
+
+If a merge conflict occurs:
+
+1.  Find the local repository that has the conflict:
+```bash
+cd repo-name
+```
+2.  Determine what files have a merge conflict:
+```bash
+git status 
+```
+3.  Open a text editor, and go to the file with the conflict
+4.  Search for the conflict marker:
+```bash
+<<<<<<< HEAD
+```
+5.  Then you’ll see ```bash=====``` which divides the two conflicting changes.
+6.  This is all followed by:
+```bash
+>>>>>>>BRANCH-NAME
+```
+7.  Decide if you want to keep your changes or delete them. 
+8.  Delete the following markers: 
+```bash
+<<<< ==== >>>>>
+```
+9.  Add and commit your changes:
+```bash
+git add <file-name>
+git commit -m “commit message”
+```
+
