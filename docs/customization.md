@@ -41,12 +41,8 @@ git commit --amend -m "new commit message"
 
 If you need to remove a file from Git without removing it from your file system:
 
-1.  Enter:
 ```bash
 git reset fileName
-```
-2.  Enter:
-```bash
 echo file >> .gitignore
 ```
 
@@ -59,9 +55,6 @@ If you need to make a change right after you make a commit:
 2.  Enter: 
 ```bash
 git add <file-name>
-```
-3.  Enter:
-```bash
 git commit --amend --no-edit
 ```
 
@@ -79,7 +72,7 @@ cd repo-name
 ```bash
 git status 
 ```
-3.  Open a text editor, and go to the file with the conflict
+3.  Open a text editor, and go to the file with the conflict.
 4.  Search for the conflict marker:
 ```bash
 <<<<<<< HEAD
