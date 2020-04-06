@@ -7,7 +7,6 @@ nav_order: 3
 # Repositories
 {: .no_toc }
 
-
 A Git repository is a folder that virtually stores a project. It is the . git/ folder inside a project folder on your computer. This repository tracks all changes made to files in the project, allowing developers to view project history. 
 {: .fs-6 .fw-300 }
 
