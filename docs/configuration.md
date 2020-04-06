@@ -57,7 +57,7 @@ To install Git:
 ```bash
 git --version
 ```
-3.  If it is not yet installed, you will be prompted to go ahead and install it
+3.  If it is not yet installed, you will be prompted to go ahead and install it.
 
 
 **Note: You will know when Git has been successfully installed when the ```bashgit --version```	command the following result appears in Terminal: ```bashgit version <latest-version-number> (Apple Git-<version-number>)```**
