@@ -35,6 +35,10 @@ Terminal is the built-in command-line interface on Mac operating systems. A comm
 
 These instructions assume that users are already familiar with their Mac operating systems and can access the Terminal interface. It will also assume that a user can prepare their own project files to store on Git.
 
+Required:
+* Computer with a Mac operating system (latest version preferred)
+* Functional keyboard
+
 ## Typographic Conventions
 
 The typographic conventions of our instruction set are listed here:
