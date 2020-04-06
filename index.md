@@ -52,7 +52,7 @@ The typographic conventions of our instruction set are listed here:
 
 | Icon      | Description |
 | ----------- | ----------- |
-|   ![Icon](http://clipart-library.com/images/piqrGErrT.png){ width=50% }  | Title       |
+|   ![Icon](https://imgur.com/8hOhnYk.png)| Title       |
 
 ## About the Project
 
