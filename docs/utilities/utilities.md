@@ -43,7 +43,7 @@ Git branching allows users to pull from the ‘master’ (original) branch, make
 
 The ‘master’ branch is considered to be code that is ready for production, in contrast to development code in the ‘develop’ branch. Aside from the ‘master’ and ‘develop’ branches, there are ‘feature’, ‘release’, and ‘hotfix’ branches. Each type of branch has a specific purpose and is bound to a particular origin branch and merge target. For our purposes, we will be talking about creating a ‘feature’ branch
 
-To see what branches already exist locally enter:
+See what branches already exist:
 ```bash
 git branch
 ```
