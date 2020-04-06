@@ -6,7 +6,7 @@ description: "How to Use Git on Terminal"
 permalink: /
 ---
 
-User documentation for Git on Mac's Terminal
+**User documentation for Git on Mac's Terminal**
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -41,7 +41,8 @@ The typographic conventions of our instruction set are listed here:
 
 | Type | Example |
 | ----------- | ----------- |
-| Terminal input | ```bashgit add``` |
+| Terminal input appears inside a box | ```git add``` |
+| Terminal input to be customized will be inside the <> symbols | ```open <file-name>``` |
 
 ## Notes
 
@@ -49,7 +50,6 @@ The typographic conventions of our instruction set are listed here:
 | ----------- | ----------- |
 |   ![Icon](http://clipart-library.com/images/piqrGErrT.png)  | Title       |
 
-
 ## About the Project
 
-&copy; 2020 by Diyar Ravandi & Maria Davis
+&copy; 2020 by Diyar Ravandi & Maria Davis (BCIT, Vancouver, Canada)
