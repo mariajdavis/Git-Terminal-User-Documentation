@@ -6,9 +6,6 @@ description: "How to Use Git on Terminal"
 permalink: /
 ---
 
-# How to Use Git on Terminal
-{: .fs-9 }
-
 User documentation for Git on Mac's Terminal
 {: .fs-6 .fw-300 }
 
