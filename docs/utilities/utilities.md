@@ -7,8 +7,8 @@ nav_order: 4
 # Collaboration
 {: .no_toc }
 
-
 Git is a powerful tool because it allows developers to work on the same project, remotely. Multiple users can access the same Git repository through the action of cloning, or copying, a repository locally and then pushing their updates to the shared (main) repository.
+{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
