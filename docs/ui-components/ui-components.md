@@ -19,8 +19,6 @@ A Git repository is a folder that virtually stores a project. It is the . git/ f
 1. TOC
 {:toc}
 
----
-
 ## Create a Repository for an Existing Project
 
 To create a repository, you will first need to navigate to the correct location in your working directory via Terminal. 
