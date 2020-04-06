@@ -36,10 +36,14 @@ These instructions assume that users are already familiar with their Mac operati
 
 To follow these instructions, you will need:
 
-* A computer with a Mac operating system (latest version preferred)
+* A computer with a Mac operating system 
 * A functional keyboard
 
-## Typographic Conventions
+## Versions
+
+The latest Git for Mac update is version 2.25. The latest Mac OS update is version 10.15.4. It is highly recommended to work with the latest versions of each software. We will walk you through the installation process for Git for Mac on the 'Getting Started' page.
+
+## Conventions
 
 The typographic conventions of our instruction set are listed here:
 
