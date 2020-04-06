@@ -57,6 +57,6 @@ Pay special attention to the following icon when it appears in our instructions:
 
 ## About the Project
 
-The project was designed to help fellow computer science students with the basics of Git on Mac's Terminal interface.
+The project was originally designed to help fellow computer science students with the basics of Git on Mac's Terminal interface.
 
 &copy; 2020 by Diyar Ravandi & Maria Davis (BCIT, Vancouver, Canada)
