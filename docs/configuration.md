@@ -17,8 +17,6 @@ To get started using Git on Terminal, you will want to familiarize yourself with
 1. TOC
 {:toc}
 
----
-
 ## Basic Terminal Commands
 
 The following basic Terminal commands will allow you to navigate your computer’s working directory. Some of them will be used in this user documentation:
