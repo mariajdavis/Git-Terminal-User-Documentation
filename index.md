@@ -15,6 +15,8 @@ User documentation for Git on Mac's Terminal
 1. TOC
 {:toc}
 
+---
+
 ## Purpose
 
 This documentation will introduce users to the basic commands they will need to know to set up Git on their computer, create and manage their own Git repository, and use Git to collaborate with others.
@@ -37,7 +39,7 @@ These instructions assume that users are already familiar with their Mac operati
 
 | Icon      | Description |
 | ----------- | ----------- |
-|   ![Icon](http://clipart-library.com/images/piqrGErrT.png =250x250)   | Title       |
+|   ![Icon](http://clipart-library.com/images/piqrGErrT.png)  | Title       |
 
 
 ## About the Project
