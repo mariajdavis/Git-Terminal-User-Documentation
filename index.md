@@ -16,11 +16,11 @@ description: "How to Use Git on Terminal"
 
 ## Purpose
 
-This documentation will introduce users to the basic commands they will need to know to set up Git on their computer, create and manage their own Git repository, and use Git to collaborate with others.
+This documentation will introduce users to the basic Terminal commands they will need to know to set up Git on their computer, create and manage their own Git repository, and use Git to collaborate with others.
 
 ## Intended Audience
 
-This user documentation series is meant for first time users of Git on the built-in Terminal interface of Mac operating systems.
+This user documentation series is meant for first time users of Git on Terminal who are already comfortable navigating their Mac operating systems.
 
 ## Introduction to Git
 
