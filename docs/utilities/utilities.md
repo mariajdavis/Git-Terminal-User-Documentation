@@ -23,8 +23,7 @@ Git is a powerful tool because it allows developers to work on the same project,
 ## Cloning a Repository
 
 To clone a repository, you must navigate in Terminal to the folder location where you want the cloned directory to appear. You will also need the URL of the repository you are going to clone:
-
-To clone: 
+ 
 ```bash
 git clone <repo-URL>
 ```
@@ -81,12 +80,12 @@ git push <new-remote-repo-name> <new-branch-name>~
 
 A branch is no longer needed once it and its history has been merged with the master. To delete a branch locally:
 
-1.  Make sure the branch has been merged, otherwise an error message will appear when attempting to delete.
-2.  To delete after merging: 
+1.  Ensure branch has been merged, otherwise an error message will appear when attempting to delete.
+2.  Delete after merging: 
 ```bash
 git branch -d <new-branch-name>
 ```
-3.  To delete without merging (in the event that you are discarding the development): 
+3.  Delete without merging (in the event that you are discarding the development): 
 ```bash
 git branch -D <new-branch-name>
 ```
