@@ -6,6 +6,7 @@ description: "How to Use Git on Terminal"
 ---
 
 # How to Use Git on Terminal
+{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }
