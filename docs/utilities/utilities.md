@@ -16,7 +16,6 @@ Git is a powerful tool because it allows developers to work on the same project,
 1. TOC
 {:toc}
 
----
 
 ## Cloning a Repository
 
