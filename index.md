@@ -53,7 +53,7 @@ Pay special attention to the following icon when it appears in our instructions:
 
 | Icon      | Description |
 | ----------- | ----------- |
-|   ![Icon](https://imgur.com/8hOhnYk.png)| The note symbol signals that additional information is being provided just-in-time for the following step. |
+|   ![Icon](https://imgur.com/8hOhnYk.png)| The note symbol signals that additional information is being provided just in time for the following step. |
 
 ## About the Project
 
