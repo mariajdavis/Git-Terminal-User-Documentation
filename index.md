@@ -55,4 +55,6 @@ The typographic conventions of our instruction set are listed here:
 
 ## About the Project
 
+The project was conceived and designed to help fellow computer science students with the basics of Git on Mac's Terminal interface.
+
 &copy; 2020 by Diyar Ravandi & Maria Davis (BCIT, Vancouver, Canada)
