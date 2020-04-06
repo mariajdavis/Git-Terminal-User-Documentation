@@ -40,10 +40,10 @@ Terminal is the built-in command-line interface on Mac operating systems. A comm
 
 These instructions assume that users are already familiar with their Mac operating systems and can access the Terminal interface. It will also assume that a user can prepare their own project files to store on Git.
 
-| Syntax      | Description |
+| Icon      | Description |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+|    http://clipart-library.com/images/piqrGErrT.png   | Title       |
+
 
 ## About the Project
 
