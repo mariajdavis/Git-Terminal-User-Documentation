@@ -42,7 +42,7 @@ These instructions assume that users are already familiar with their Mac operati
 
 | Icon      | Description |
 | ----------- | ----------- |
-|   ![Icon](http://clipart-library.com/images/piqrGErrT.png)   | Title       |
+|   ![Icon](http://clipart-library.com/images/piqrGErrT.png =250x250)   | Title       |
 
 
 ## About the Project
