@@ -6,7 +6,7 @@ description: "How to Use Git on Terminal"
 permalink: /
 ---
 
-How to Use Git on Terminal
+# How to Use Git on Terminal
 {: .fs-9 }
 
 User documentation for Git on Mac's Terminal
@@ -40,6 +40,11 @@ Terminal is the built-in command-line interface on Mac operating systems. A comm
 
 These instructions assume that users are already familiar with their Mac operating systems and can access the Terminal interface. It will also assume that a user can prepare their own project files to store on Git.
 
-## About the project
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## About the Project
 
 &copy; 2020 by Diyar Ravandi & Maria Davis
