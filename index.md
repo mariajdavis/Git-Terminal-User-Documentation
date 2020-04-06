@@ -15,8 +15,6 @@ User documentation for Git on Mac's Terminal
 1. TOC
 {:toc}
 
----
-
 ## Purpose
 
 This documentation will introduce users to the basic commands they will need to know to set up Git on their computer, create and manage their own Git repository, and use Git to collaborate with others.
@@ -33,9 +31,19 @@ Git is a popular version-control system used in software development. Version-co
 
 Terminal is the built-in command-line interface on Mac operating systems. A command-line interface processes text commands to the computer. One way to use Git is through the command line. While there are now different graphical user interfaces that allow you to utilize Git without using Terminal, like GitHub Desktop, there are certain Git commands that can only be executed on the command line. Many employers expect developers to be comfortable working on the command line.
 
-## Assumptions
+## Prerequisites
 
 These instructions assume that users are already familiar with their Mac operating systems and can access the Terminal interface. It will also assume that a user can prepare their own project files to store on Git.
+
+## Typographic Conventions
+
+The typographic conventions of our instruction set are listed here:
+
+| Type | Example |
+| ----------- | ----------- |
+| Terminal input | ```bashgit add``` |
+
+## Notes
 
 | Icon      | Description |
 | ----------- | ----------- |
