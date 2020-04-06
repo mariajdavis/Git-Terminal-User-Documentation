@@ -2,8 +2,6 @@
 layout: default
 title: Repositories
 nav_order: 3
-has_children: true
-permalink: /docs/ui-components
 ---
 
 # Repositories
@@ -60,7 +58,7 @@ mkdir <new-directory-name>
 ```bash
   cd <new-directory-name>
 ```
-3.  Enter: 
+3.  Execute: 
 ```bash
   git init
 ```
