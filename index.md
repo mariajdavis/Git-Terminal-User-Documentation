@@ -3,10 +3,9 @@ layout: default
 title: Introduction
 nav_order: 1
 description: "How to Use Git on Terminal"
-permalink: /
 ---
 
-**User documentation for Git on Mac's Terminal**
+# How to Use Git on Terminal
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -52,7 +51,7 @@ The typographic conventions of our instruction set are listed here:
 
 | Icon      | Description |
 | ----------- | ----------- |
-|   ![Icon](https://imgur.com/8hOhnYk.png)| Title       |
+|   ![Icon](https://imgur.com/8hOhnYk.png)| The note symbol signals that additional information is being provided just-in-time for the following step. |
 
 ## About the Project
 
