@@ -40,7 +40,7 @@ git init
 git add
 ```
 
-|   ![Icon](https://imgur.com/8hOhnYk.png) | It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit |
+|   ![Icon](https://imgur.com/8hOhnYk.png) | It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit. |
 
 5.  Commit new files: 
 ```bash
