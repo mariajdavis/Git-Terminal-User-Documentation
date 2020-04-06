@@ -39,12 +39,13 @@ git init
 ```bash
 git add
 ```
+
+|   ![Icon](https://imgur.com/8hOhnYk.png) | It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit |
+
 5.  Commit new files: 
 ```bash
 git commit -m “commit message goes here”
 ```
-
-**Note: It is highly recommended to leave clear and concise commit messages. It will be much more helpful when you need to go back and find a previous version if you have clear indications of what you changed in each commit.**
 
 ## Create a Repository for a New Project
 
@@ -84,7 +85,7 @@ git add testCommit.txt
 git commit -m “write a professional commit message”
 ```
 
-**Note: To push your work to (share it with) a remote repository, you will need to use a Git host service to store your repository. The service will provide you with a URL that you can use to push your code. GitHub is our preferred Git host service: https://github.com/**
+|   ![Icon](https://imgur.com/8hOhnYk.png) | To push your work to (share it with) a remote repository, you will need to use a Git host service to store your repository. The service will provide you with a URL that you can use to push your code. GitHub is our preferred Git host service: https://github.com/ |
 
 5.  Add a remote repository to your local git configuration using: 
 ```bash
