@@ -21,8 +21,6 @@ To get started using Git on Terminal, you will want to familiarize yourself with
 
 The following basic Terminal commands will allow you to navigate your computer’s working directory. Some of them will be used in this user documentation:
 
-**Note: Whenever the <> symbols appear in a command, it is meant to be replaced with your own input.**
-
 Change directory:
 ```bash
 cd <path/to/directory/>
@@ -50,6 +48,8 @@ mkdir <new-directory-name>
 
 ## Git Installation
 
+|   ![Icon](https://imgur.com/8hOhnYk.png)| You will know when Git has been successfully installed when the ```bashgit --version```	command the following result appears in Terminal: ```bashgit version <latest-version-number> (Apple Git-<version-number>)``` |
+
 To install Git:
 
 1.  Open the Terminal application
@@ -58,9 +58,6 @@ To install Git:
 git --version
 ```
 3.  If it is not yet installed, you will be prompted to go ahead and install it.
-
-
-**Note: You will know when Git has been successfully installed when the ```bashgit --version```	command the following result appears in Terminal: ```bashgit version <latest-version-number> (Apple Git-<version-number>)```**
 
 ## Initialize Account
 
@@ -71,13 +68,13 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
-**Note: The ‘--global’ portion of the above two commands means you only have to enter this information once. After that, the system will associate your account with all Git activity. To override this with a different name and email address, re-enter the above two commands without ‘--global’ while working on a project.**
+|   ![Icon](https://imgur.com/8hOhnYk.png)| The ‘--global’ portion of the above two commands means you only have to enter this information once. After that, the system will associate your account with all Git activity. To override this with a different name and email address, re-enter the above two commands without ‘--global’ while working on a project. |
 
 ## Text Editor
 
 It can be quite helpful to have access to a text editor graphical user interface through Git on Terminal. We recommend setting up Visual Studio Code (VS Code) as the default. 
 
-**Note: Install VS Code for Mac here: https://code.visualstudio.com/docs?dv=osx**
+|   ![Icon](https://imgur.com/8hOhnYk.png)| Note: Install VS Code for Mac here: https://code.visualstudio.com/docs?dv=osx |
 
 To set up VS Code as a default text editor:
 
