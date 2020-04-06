@@ -6,7 +6,6 @@ description: "How to Use Git on Terminal"
 ---
 
 # How to Use Git on Terminal
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -49,12 +48,14 @@ The typographic conventions of our instruction set are listed here:
 
 ## Notes
 
+Pay special attention to the following icon when it appears in our instructions:
+
 | Icon      | Description |
 | ----------- | ----------- |
 |   ![Icon](https://imgur.com/8hOhnYk.png)| The note symbol signals that additional information is being provided just-in-time for the following step. |
 
 ## About the Project
 
-The project was conceived and designed to help fellow computer science students with the basics of Git on Mac's Terminal interface.
+The project was designed to help fellow computer science students with the basics of Git on Mac's Terminal interface.
 
 &copy; 2020 by Diyar Ravandi & Maria Davis (BCIT, Vancouver, Canada)
