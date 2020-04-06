@@ -91,6 +91,7 @@ git commit -m “write a professional commit message”
 git remote add <remote_name> <remote_repo_url>
 ```
 
-## Conclusion
+## Completed all the steps?
+{: .no_toc }
 
 You will know if you have entered an incorrect command or not achieved the goals of this instruction set if you see any Terminal error messages. If so, please try the steps again or visit our ‘Troubleshooting’ page.
