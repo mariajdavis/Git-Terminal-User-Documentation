@@ -72,9 +72,9 @@ git config --global user.email "your@email.com"
 
 ## Text Editor
 
-It can be quite helpful to have access to a text editor graphical user interface through Git on Terminal. We recommend setting up Visual Studio Code (VS Code) as the default. 
+It can be quite helpful to have access to a text editor graphical user interface through Git on Terminal.
 
-|   ![Icon](https://imgur.com/8hOhnYk.png)| Note: Install VS Code for Mac here: https://code.visualstudio.com/docs?dv=osx |
+|   ![Icon](https://imgur.com/8hOhnYk.png)| We recommend setting up Visual Studio Code (VS Code) as the default. Install VS Code for Mac here: https://code.visualstudio.com/docs?dv=osx |
 
 To set up VS Code as a default text editor:
 
